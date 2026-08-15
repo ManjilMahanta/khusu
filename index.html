@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>For Khushi</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="hero">
+    <div class="hero__bg" id="heroBg"></div>
+    <div class="hero__scrim"></div>
+    <div class="hero__content">
+      <p class="hero__eyebrow">a little something for you</p>
+      <h1 class="hero__title">Happy Birthday,<br /><em>Khushi</em></h1>
+      <p class="hero__sub">Seven months of us — and every one of these is a moment I didn't want to forget. Scroll down, this is our story so far.</p>
+    </div>
+    <div class="hero__scroll">
+      <span>keep scrolling</span>
+      <svg width="18" height="26" viewBox="0 0 18 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M9 1V25M9 25L1 17M9 25L17 17" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- ============ INTRO NOTE ============ -->
+  <section class="intro">
+    <p class="intro__mark">It started with a message you ignored on <span>29 November 2024</span> — and I just kept texting anyway. Here's everything that happened after.</p>
+  </section>
+
+  <!-- ============ TIMELINE (built by JS) ============ -->
+  <section class="timeline" id="timeline">
+    <div class="thread-wrap">
+      <div class="thread-track"></div>
+      <div class="thread-fill" id="threadFill"></div>
+    </div>
+    <!-- .timeline__item elements are injected here by script.js -->
+  </section>
+
+  <!-- ============ GALLERY ============ -->
+  <section class="gallery" id="gallery">
+    <h2 class="gallery__heading">a few more we love</h2>
+    <p class="gallery__sub">tap any photo to look closer</p>
+    <div class="gallery__grid" id="galleryGrid">
+      <!-- images injected by script.js -->
+    </div>
+  </section>
+
+  <!-- ============ FINALE ============ -->
+  <section class="finale" id="finale">
+    <div class="finale__confetti" id="confetti"></div>
+    <div class="finale__content">
+      <p class="finale__eyebrow">16 August</p>
+      <h2 class="finale__title">Happy Birthday, Khusu.<br />(sorry — Khushi.)</h2>
+      <p class="finale__msg">
+        Seven months ago I was just someone spamming your DMs, hoping you'd reply.
+        Today you're the only person on my close friends list, the reason I got a tattoo I'll
+        carry forever, and the best part of every one of these photos.
+        <br><br>
+        Here's to more scrolls full of us. <strong>I hope your day is exactly as good as you deserve.</strong>
+      </p>
+      <p class="finale__sign">— Manjil</p>
+    </div>
+  </section>
+
+  <!-- ============ LIGHTBOX ============ -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox__close" id="lightboxClose" aria-label="Close">✕</button>
+    <img id="lightboxImg" src="" alt="" />
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
